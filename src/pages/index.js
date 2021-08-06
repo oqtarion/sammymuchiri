@@ -12,7 +12,7 @@ import Connect from "../components/templates/Connect"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Portfolio" />
     <Hero />
     <About />
     <Services />

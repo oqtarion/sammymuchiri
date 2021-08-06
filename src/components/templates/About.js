@@ -1,4 +1,6 @@
-import React from "react"
+import React, { useEffect } from "react"
+import { motion, useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
 import cv from "../files/CV-2021.pdf"
 //Who i am
 
@@ -9,9 +11,38 @@ import cv from "../files/CV-2021.pdf"
 // Experience
 
 export default function About() {
+  const { ref, inView } = useInView({ threshold: 0.2 })
+
+  const pixar = useAnimation()
+  const pixarA = useAnimation()
+
+  useEffect(() => {
+    if (inView) {
+      pixar.start({
+        opacity: 1,
+        transition: { duration: 1, delay: 0.2 },
+      })
+    }
+    if (!inView) {
+      pixar.start({ opacity: 0 })
+    }
+  }, [inView, pixar])
+
+  useEffect(() => {
+    if (inView) {
+      pixarA.start({
+        opacity: 1,
+        transition: { duration: 1 },
+      })
+    }
+    if (!inView) {
+      pixarA.start({ opacity: 0 })
+    }
+  }, [inView, pixarA])
+
   return (
-    <div id="about" className="about">
-      <div className="about-banner">
+    <div ref={ref} id="about" className="about">
+      <motion.div animate={pixarA} className="about-banner">
         <svg width="320" height="433" viewBox="0 0 320 433">
           <g id="man" transform="translate(-126.313 -124.665)">
             <g id="right-leg" transform="translate(247.126 308.402)">
@@ -123,10 +154,10 @@ export default function About() {
             </g>
           </g>
         </svg>
-      </div>
-      <div className="about-inner">
+      </motion.div>
+      <motion.div animate={pixar} className="about-inner">
         <div className="about-content">
-          <h1 className="about-title">about me</h1>
+          <h1 className="about-title">About me</h1>
           <mp className="about-message">
             I am a developer with a designers eye & a designer with a developers
             mind, passionate about crafting products with strong visual
@@ -150,7 +181,7 @@ export default function About() {
             />
           </svg>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }

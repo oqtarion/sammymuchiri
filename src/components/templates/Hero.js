@@ -1,39 +1,39 @@
-import React, { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import React, { useEffect } from "react"
+import { motion, useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
 // Get in touch
 // Hire me
 
 export default function Hero() {
-  const { ref, inView } = useInView({ threshold: 0.2 });
+  const { ref, inView } = useInView({ threshold: 0.2 })
 
-  const pixar = useAnimation();
-  const pixarA = useAnimation();
+  const pixar = useAnimation()
+  const pixarA = useAnimation()
 
   useEffect(() => {
     if (inView) {
       pixar.start({
         x: 0,
-        transition: { duration: 1, delay: 0.7 }
-      });
+        transition: { duration: 1, delay: 0.7 },
+      })
     }
     if (!inView) {
-      pixar.start({ x: "100vw" });
+      pixar.start({ x: "100vw" })
     }
-  }, [inView, pixar]);
+  }, [inView, pixar])
 
   useEffect(() => {
     if (inView) {
       pixarA.start({
         x: 0,
         opacity: 1,
-        transition: { duration: 1 }
-      });
+        transition: { duration: 1 },
+      })
     }
     if (!inView) {
-      pixarA.start({ x: "-100vw", opacity: 0 });
+      pixarA.start({ x: "-100vw", opacity: 0 })
     }
-  }, [inView, pixarA]);
+  }, [inView, pixarA])
 
   const container = {
     initial: { y: 10 },
@@ -43,19 +43,19 @@ export default function Hero() {
         type: "spring",
         delayChildren: 1.2,
         staggerDirection: 1,
-        staggerChildren: 0.5
-      }
-    }
-  };
+        staggerChildren: 0.5,
+      },
+    },
+  }
 
   const item = {
     initial: { y: 10 },
-    animate: { y: 0 }
-  };
+    animate: { y: 0 },
+  }
 
   const icons = {
     initial: {
-      scale: 0.8
+      scale: 0.8,
     },
     animate: {
       scale: 1,
@@ -67,16 +67,16 @@ export default function Hero() {
         repeatType: "mirror",
         duration: 11,
         bounce: 0,
-        velocity: 900
-      }
-    }
-  };
+        velocity: 900,
+      },
+    },
+  }
 
   return (
     <div id="home" ref={ref} className="hero">
-      <div className="hero-banner">
-        <motion.svg
-          animate={pixar}
+      <motion.div animate={pixar} className="hero-banner">
+        <svg
+          className="banner"
           width="1080"
           height="1080"
           viewBox="0 0 1080 1080"
@@ -1118,8 +1118,8 @@ export default function Hero() {
               </g>
             </g>
           </g>
-        </motion.svg>
-      </div>
+        </svg>
+      </motion.div>
       <motion.div animate={pixarA} className="hero-inner">
         <div className="hero-content">
           <motion.div
@@ -1187,5 +1187,5 @@ export default function Hero() {
         </div>
       </motion.div>
     </div>
-  );
+  )
 }

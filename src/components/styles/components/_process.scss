@@ -18,7 +18,7 @@
   font-weight: 600;
   letter-spacing: -2px;
   white-space: nowrap;
-  line-height: 120px;
+  line-height: 50px;
   padding-bottom: 1rem;
 }
 
@@ -37,6 +37,7 @@
   flex-wrap: wrap;
   width: 100%;
   perspective: 2000;
+  padding-top: 3rem;
 }
 
 .process-card {

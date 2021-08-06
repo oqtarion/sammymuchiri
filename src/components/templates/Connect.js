@@ -1,14 +1,45 @@
-import React from "react"
-import facebook from "../../images/facebook.svg"
-import twitter from "../../images/twitter.svg"
-import instagram from "../../images/instagram.svg"
+import React, { useEffect } from "react"
+import { motion, useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
+import facebook from "../../images/social/facebook.svg"
+import twitter from "../../images/social/twitter.svg"
+import instagram from "../../images/social/instagram.svg"
 
 // Lets work together
 
 export default function Connect() {
+  const { ref, inView } = useInView({ threshold: 0.2 })
+
+  const pixar = useAnimation()
+  const pixarA = useAnimation()
+
+  useEffect(() => {
+    if (inView) {
+      pixar.start({
+        opacity: 1,
+        transition: { duration: 1, delay: 0.2 },
+      })
+    }
+    if (!inView) {
+      pixar.start({ opacity: 0 })
+    }
+  }, [inView, pixar])
+
+  useEffect(() => {
+    if (inView) {
+      pixarA.start({
+        opacity: 1,
+        transition: { duration: 1 },
+      })
+    }
+    if (!inView) {
+      pixarA.start({ opacity: 0 })
+    }
+  }, [inView, pixarA])
+
   return (
-    <div id="connect" className="connect">
-      <div className="connect-banner">
+    <div ref={ref} id="connect" className="connect">
+      <motion.div animate={pixar} className="connect-banner">
         <svg width="308.813" height="368" viewBox="0 0 308.813 368">
           <g id="woman" transform="translate(-983 -335)">
             <g id="seat" transform="translate(980 571)">
@@ -126,8 +157,8 @@ export default function Connect() {
             </g>
           </g>
         </svg>
-      </div>
-      <div className="connect-form">
+      </motion.div>
+      <motion.div animate={pixarA} className="connect-form">
         <div className="form-content">
           <h1 className="form-title">Lets work together</h1>
           <p className="form-text">Leave a message and say hello</p>
@@ -169,7 +200,7 @@ export default function Connect() {
             <img className="icon" src={instagram} alt="instagram" />
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }

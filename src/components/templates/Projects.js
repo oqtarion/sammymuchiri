@@ -1,13 +1,17 @@
-import React from "react"
+import React, { useEffect } from "react"
+import { motion, useAnimation } from "framer-motion"
+import { useInView } from "react-intersection-observer"
 import Carousel, { consts } from "react-elastic-carousel"
-import pIcon from "../../images/pagination.svg"
-import bustube from "../../images/bustube.jpg"
-import estilo from "../../images/estilo.jpg"
-import gadgetShop from "../../images/gadget-shop.mp4"
-import mci from "../../images/mci.png"
-import motosouk from "../../images/motosouk.jpg"
-import prev from "../../images/chevron-left.svg"
-import next from "../../images/chevron-right.svg"
+
+import bustube from "../../images/assets/bustube.jpg"
+import estilo from "../../images/assets/estilo.jpg"
+import gadgetShop from "../../images/assets/gadget-shop.mp4"
+import mci from "../../images/assets/mci.png"
+import motosouk from "../../images/assets/motosouk.jpg"
+
+import pIcon from "../../images/icons/pagination.svg"
+import prev from "../../images/icons/chevron-left.svg"
+import next from "../../images/icons/chevron-right.svg"
 
 // My works
 const breakPoints = [
@@ -38,12 +42,28 @@ const myArrow = ({ type, onClick, isEdge }) => {
 }
 
 export default function Projects() {
+  const { ref, inView } = useInView({ threshold: 0.2 })
+
+  const pixar = useAnimation()
+
+  useEffect(() => {
+    if (inView) {
+      pixar.start({
+        opacity: 1,
+        transition: { duration: 1, delay: 0.2 },
+      })
+    }
+    if (!inView) {
+      pixar.start({ opacity: 0 })
+    }
+  }, [inView, pixar])
+
   return (
-    <div id="projects" className="project-section">
-      <div className="project-content">
+    <div ref={ref} id="projects" className="project-section">
+      <motion.div animate={pixar} className="project-content">
         <h1 className="project-title">Portfolio Showcase</h1>
         <p className="project-text">Curated projects and works</p>
-      </div>
+      </motion.div>
       <Carousel
         className="project-carousel"
         initialActiveIndex={1}

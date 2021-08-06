@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     logo: `sm`,
     title: `Sammy Muchiri`,
-    description: `Portfolio built with Gatsby.`,
+    description: `Digital Designer & Developer`,
     author: `@sammymuchiry`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
@@ -22,13 +22,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `sammy-muchiri`,
+        name: `sammy muchiri`,
         short_name: `sm`,
         start_url: `/`,
         background_color: `#07080d`,
         theme_color: `#ff0054`,
         display: `minimal-ui`,
-        icon: `src/images/icons/mm.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo/sm.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
