@@ -1,0 +1,126 @@
+.process-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+  background-color: transparent;
+}
+.process-header {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.process-title {
+  color: $blue;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+  white-space: nowrap;
+  line-height: 120px;
+  padding-bottom: 1rem;
+}
+
+.process-text {
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: $coral;
+}
+
+.process-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  perspective: 2000;
+}
+
+.process-card {
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  margin: 1rem;
+  background: $dark-two;
+  box-shadow: -1rem 0 3rem $black;
+  cursor: grab;
+  position: relative;
+}
+
+.process-card:hover {
+  background: $dark-one;
+  transition: 0.2s;
+}
+
+.process-card-icon {
+  color: $violet;
+  font-size: 5rem;
+  font-weight: 900;
+  user-select: none;
+  height: 100%;
+  width: auto;
+}
+
+.process-card-circle {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.card-circle {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: -5em;
+  right: -3em;
+  z-index: 5;
+  background: $black;
+  border-radius: 50%;
+}
+
+.process-card-title {
+  color: $blue;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  letter-spacing: 0.5px;
+  z-index: 10;
+}
+
+.process-card-text {
+  font-size: 1rem;
+  font-weight: 300;
+  color: $coral;
+  letter-spacing: 0.6px;
+  padding: 0.5rem;
+}
+
+.process-card-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1.2;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.process-card-content {
+  display: flex;
+  flex: 0;
+  padding: 0;
+}
+
+.process-card-icon-wrapper {
+  width: 100%;
+  z-index: 20;
+  user-select: none;
+}

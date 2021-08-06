@@ -1,0 +1,96 @@
+.header {
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 0 4rem;
+  @media (max-width: $layout-breakpoint-small) {
+    padding: 0 1rem;
+  }
+  @media (max-width: $layout-breakpoint-xsmall) {
+    padding: 0 1rem;
+    height: 96px;
+  }
+  .header-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      font-weight: 700;
+      font-size: 1.8rem;
+      @media (max-width: $layout-breakpoint-small) {
+        font-size: 1.6rem;
+      }
+      .link {
+        color: $violet;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+          color: $purple;
+          transition: 0.2s;
+        }
+      }
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .tabs {
+        margin: 0 40px;
+        .link {
+          color: $purple;
+          padding-bottom: 8px;
+          padding-top: 8px;
+          padding-right: 11px;
+          padding-left: 11px;
+          font-weight: 500;
+          font-size: 1rem;
+          text-decoration: none;
+          letter-spacing: 2px;
+          white-space: nowrap;
+          text-transform: uppercase;
+          cursor: pointer;
+          @media (max-width: $layout-breakpoint-small) {
+            padding-right: 4px;
+            padding-left: 4px;
+          }
+
+          &:hover {
+            color: $violet;
+            transition: 0.2s;
+            border-bottom: 3px solid $violet;
+          }
+        }
+      }
+    }
+    .contact {
+      .link {
+        color: $violet;
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-right: 11px;
+        padding-left: 11px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+          color: $purple;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+.connect {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  padding: 3rem 2rem;
+
+  @media (max-width: $layout-breakpoint-small) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .connect-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 5rem 2rem;
+
+    @media (max-width: $layout-breakpoint-small) {
+      width: 100%;
+    }
+  }
+
+  .connect-form {
+    background: $dark-two;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @media (max-width: $layout-breakpoint-small) {
+      width: 100%;
+      margin: 0;
+      padding: 1rem;
+    }
+    .form-content {
+      padding-bottom: 2rem;
+      .form-title {
+        color: $blue;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      .form-text {
+        text-align: center;
+        color: $coral;
+        font-size: 1.1rem;
+        font-weight: 300;
+        letter-spacing: 0.6px;
+      }
+    }
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      ::-webkit-input-placeholder {
+        color: $coral;
+      }
+
+      :-moz-placeholder {
+        color: $coral;
+      }
+
+      ::-moz-placeholder {
+        color: $coral;
+      }
+
+      :-ms-input-placeholder {
+        color: $coral;
+      }
+
+      input:focus,
+      textarea:focus {
+        background-color: $black;
+        -moz-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+        -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+        overflow: hidden;
+        border-radius: 0;
+      }
+
+      .form-control-name {
+        font-size: 1rem;
+        font-weight: 300;
+        color: $coral;
+        letter-spacing: 0.6px;
+        width: 90%;
+        padding: 0.5rem;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border: none;
+        background: $dark-one;
+        font-family: "Poppins";
+      }
+      .form-control-email {
+        font-size: 1rem;
+        font-weight: 300;
+        color: $coral;
+        letter-spacing: 0.6px;
+        width: 90%;
+        padding: 0.5rem;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border: none;
+        background: $dark-one;
+        font-family: "Poppins";
+      }
+      .form-control-message {
+        font-size: 1rem;
+        font-weight: 300;
+        color: $coral;
+        letter-spacing: 0.6px;
+        width: 90%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 3rem;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border: none;
+        background: $dark-one;
+        font-family: "Poppins";
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        display: block;
+      }
+      .form-control-button {
+        width: 90%;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        background: $violet;
+        border: none;
+        border-radius: 0;
+        color: $coral;
+        font-family: "Poppins";
+        font-size: 1.1rem;
+        font-weight: 500;
+        letter-spacing: 0px;
+        white-space: nowrap;
+        cursor: pointer;
+      }
+    }
+    .form-social {
+      .social-content {
+        .social-title {
+          color: $blue;
+          font-size: 1.333rem;
+          font-weight: 600;
+          padding-bottom: 1rem;
+          letter-spacing: 1px;
+        }
+      }
+      .social-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 1rem;
+        .icon {
+          height: 20px;
+        }
+      }
+    }
+  }
+}

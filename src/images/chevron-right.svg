@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="24" viewBox="0 0 14 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff0054;
+      }
+    </style>
+  </defs>
+  <path id="chevron-right" class="cls-1" d="M2.659,6,14,18,2.659,30,0,27.188,8.684,18,0,8.813Z" transform="translate(0 -6)"/>
+</svg>
