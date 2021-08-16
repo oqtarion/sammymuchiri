@@ -24,7 +24,7 @@
       font-weight: 700;
       font-size: 1.8rem;
       @media (max-width: $layout-breakpoint-small) {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
       }
       .link {
         color: $violet;
@@ -34,7 +34,7 @@
         cursor: pointer;
 
         &:hover {
-          color: $purple;
+          color: $yellow;
           transition: 0.2s;
         }
       }
@@ -46,27 +46,33 @@
       .tabs {
         margin: 0 2rem;
         .link {
-          color: $purple;
+          color: $violet;
           padding-bottom: 8px;
           padding-top: 8px;
           padding-right: 11px;
           padding-left: 11px;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 1rem;
           text-decoration: none;
           letter-spacing: 2px;
           white-space: nowrap;
           text-transform: uppercase;
           cursor: pointer;
+
           @media (max-width: $layout-breakpoint-small) {
             padding-right: 4px;
             padding-left: 4px;
+            font-size: 0.8rem;
           }
 
           &:hover {
-            color: $violet;
+            color: $yellow;
             transition: 0.2s;
             border-bottom: 3px solid $violet;
+
+            @media (max-width: $layout-breakpoint-small) {
+              border-bottom: 2px solid $violet;
+            }
           }
         }
       }
@@ -84,10 +90,15 @@
         letter-spacing: 1px;
         white-space: nowrap;
         text-transform: uppercase;
+        background-color: none;
         cursor: pointer;
 
+        @media (max-width: $layout-breakpoint-small) {
+          font-size: 0.8rem;
+        }
+
         &:hover {
-          color: $purple;
+          color: $yellow;
           transition: 0.2s;
         }
       }

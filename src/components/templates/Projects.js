@@ -61,8 +61,10 @@ export default function Projects() {
   return (
     <div ref={ref} id="projects" className="project-section">
       <motion.div animate={pixar} className="project-content">
-        <h1 className="project-title">Portfolio Showcase</h1>
-        <p className="project-text">Curated projects and works</p>
+        <div className="project-header">
+          <h1 className="project-title">portfolio showcase</h1>
+        </div>
+        <p className="project-text">curated projects and works</p>
       </motion.div>
       <Carousel
         className="project-carousel"

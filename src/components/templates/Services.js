@@ -37,8 +37,10 @@ export default function Services() {
   return (
     <div ref={ref} className="services">
       <motion.div animate={pixar} className="services-left">
-        <h1 className="services-header">What I do</h1>
-        <p className="services-text">Here's what I'm most passionate about</p>
+        <div className="about-header">
+          <h1 className="services-title">what i do</h1>
+        </div>
+        <p className="services-text">here's what i'm most passionate about.</p>
       </motion.div>
       <motion.div animate={pixarA} className="services-right">
         <article className="card">
@@ -56,18 +58,18 @@ export default function Services() {
                 fill="#ff0054"
               />
             </svg>
-            <h2 className="card-title">Digital Design</h2>
+            <h2 className="card-title">digital design</h2>
           </header>
           <div className="card-content">
             <p className="card-text">
-              Design for both print and online implementation complemented with
-              animations
+              design for both print and online implementation complemented with
+              animations.
             </p>
           </div>
           <div className="card-tags">
-            <p className="tags">Adobe</p>
-            <p className="tags">Blender</p>
-            <p className="tags">Figma</p>
+            <p className="tags">adobe creative cloud</p>
+            <p className="tags">blender</p>
+            <p className="tags">figma</p>
           </div>
         </article>
         <article className="card">
@@ -85,19 +87,19 @@ export default function Services() {
                 fill="#ff0054"
               />
             </svg>
-            <h2 className="card-title">Web Development</h2>
+            <h2 className="card-title">web development</h2>
           </header>
           <div className="card-content">
             <p className="card-text">
-              Creating functional user interfaces and website experiences that
+              creating functional user interfaces and website experiences that
               look good and easy to implement.
             </p>
           </div>
           <div className="card-tags">
-            <p className="tags">HTML</p>
-            <p className="tags">CSS</p>
-            <p className="tags">JS</p>
-            <p className="tags">React</p>
+            <p className="tags">html</p>
+            <p className="tags">css</p>
+            <p className="tags">js</p>
+            <p className="tags">react</p>
           </div>
         </article>
         <article className="card">
@@ -115,18 +117,18 @@ export default function Services() {
                 fill="#ff0054"
               />
             </svg>
-            <h2 className="card-title">Content Strategy</h2>
+            <h2 className="card-title">content strategy</h2>
           </header>
           <div className="card-content">
             <p className="card-text">
-              Coming up with sensible tailored copy, and content for use online
+              coming up with sensible tailored copy, and content for use online
               and print media from captions to blogs.
             </p>
           </div>
           <div className="card-tags">
-            <p className="tags">Microsoft</p>
-            <p className="tags">Adobe</p>
-            <p className="tags">Google</p>
+            <p className="tags">microsoft office</p>
+            <p className="tags">adobe creative cloud</p>
+            <p className="tags">google docs</p>
           </div>
         </article>
         <article className="card">
@@ -143,18 +145,18 @@ export default function Services() {
                 fill="#ff0054"
               />
             </svg>
-            <h2 className="card-title">Search Engine Optimization</h2>
+            <h2 className="card-title">search engine optimization</h2>
           </header>
           <div className="card-content">
             <p className="card-text">
-              Configuration of websites to take advantage of the search engines
+              configuration of websites to take advantage of the search engines
               for maximum reach.
             </p>
           </div>
           <div className="card-tags">
-            <p className="tags">Google Tags</p>
-            <p className="tags">Keywords</p>
-            <p className="tags">Keyword phrases</p>
+            <p className="tags">google tags</p>
+            <p className="tags">keywords</p>
+            <p className="tags">keyword phrases</p>
           </div>
         </article>
         <article className="card">
@@ -172,19 +174,19 @@ export default function Services() {
                 fill="#ff0054"
               />
             </svg>
-            <h2 className="card-title">Digital Media Marketing</h2>
+            <h2 className="card-title">digital media marketing</h2>
           </header>
           <div className="card-content">
             <p className="card-text">
-              Efficient management of social media accounts using the latest
-              technologies like Hootsuite.
+              efficient management of social media accounts using the latest
+              technologies like hootsuite.
             </p>
           </div>
           <div className="card-tags">
-            <p className="tags">Facebook</p>
-            <p className="tags">Instagram</p>
-            <p className="tags">YouTube</p>
-            <p className="tags">Twitter</p>
+            <p className="tags">facebook</p>
+            <p className="tags">instagram</p>
+            <p className="tags">youTube</p>
+            <p className="tags">twitter</p>
           </div>
         </article>
         <article className="card">
@@ -202,17 +204,17 @@ export default function Services() {
                 fill="#ff0054"
               />
             </svg>
-            <h2 className="card-title">Analytics & Insights</h2>
+            <h2 className="card-title">analytics &#38; insights</h2>
           </header>
           <div className="card-content">
             <p className="card-text">
-              Integration of analytics helps analyze online traffic to measure
+              integration of analytics helps analyze online traffic to measure
               and optimize user engagement.
             </p>
           </div>
           <div className="card-tags">
-            <p className="tags">Google Analytics</p>
-            <p className="tags">Facebook Insights</p>
+            <p className="tags">google analytics</p>
+            <p className="tags">facebook insights</p>
           </div>
         </article>
       </motion.div>

@@ -12,8 +12,13 @@
   text-align: center;
 }
 
+.project-heading {
+  display: flex;
+  flex-direction: column;
+}
+
 .process-title {
-  color: $blue;
+  color: $violet;
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: -2px;
@@ -45,14 +50,14 @@
   height: 400px;
   text-align: center;
   margin: 1rem;
-  background: $dark-two;
+  background: $dark-one;
   box-shadow: -1rem 0 3rem $black;
   cursor: grab;
   position: relative;
 }
 
 .process-card:hover {
-  background: $dark-one;
+  background: $dark-two;
   transition: 0.2s;
 }
 
@@ -87,11 +92,12 @@
 }
 
 .process-card-title {
-  color: $blue;
+  color: $yellow;
   font-size: 2rem;
   font-weight: 700;
   padding-bottom: 1rem;
   letter-spacing: 0.5px;
+  text-transform: lowercase;
   z-index: 10;
 }
 
@@ -101,6 +107,7 @@
   color: $coral;
   letter-spacing: 0.6px;
   padding: 0.5rem;
+  text-transform: lowercase;
 }
 
 .process-card-header {

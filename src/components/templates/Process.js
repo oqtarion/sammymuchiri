@@ -12,9 +12,11 @@ export default function Process() {
   return (
     <div className="process-section">
       <div className="process-header">
-        <h2 className="process-title">Work Flow</h2>
+        <div className="project-heading">
+          <h1 className="process-title">work flow</h1>
+        </div>
         <p className="process-text">
-          A step by step guide to my design process
+          a step by step guide to my design process
         </p>
       </div>
       <div className="process-content">

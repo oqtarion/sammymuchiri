@@ -27,7 +27,7 @@
   }
 
   .connect-form {
-    background: $dark-two;
+    background: $dark-one;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -46,11 +46,12 @@
       padding-bottom: 1rem;
       padding-top: 1rem;
       .form-title {
-        color: $blue;
+        color: $violet;
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.5px;
         line-height: 50px;
+        text-transform: lowercase;
       }
       .form-text {
         text-align: center;
@@ -58,6 +59,7 @@
         font-size: 1.1rem;
         font-weight: 300;
         letter-spacing: 0.6px;
+        text-transform: lowercase;
       }
     }
     .form {
@@ -103,8 +105,9 @@
         margin-top: 6px;
         margin-bottom: 16px;
         border: none;
-        background: $dark-one;
+        background: $dark-two;
         font-family: "Poppins";
+        text-transform: lowercase;
       }
       .form-control-email {
         font-size: 1rem;
@@ -116,8 +119,9 @@
         margin-top: 6px;
         margin-bottom: 16px;
         border: none;
-        background: $dark-one;
+        background: $dark-two;
         font-family: "Poppins";
+        text-transform: lowercase;
       }
       .form-control-message {
         font-size: 1rem;
@@ -132,7 +136,7 @@
         margin-top: 6px;
         margin-bottom: 16px;
         border: none;
-        background: $dark-one;
+        background: $dark-two;
         font-family: "Poppins";
         -moz-background-clip: padding;
         -webkit-background-clip: padding-box;
@@ -147,19 +151,20 @@
         background: $violet;
         border: none;
         border-radius: 0;
-        color: $coral;
+        color: $black;
         font-family: "Poppins";
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 500;
-        letter-spacing: 0px;
+        letter-spacing: 2px;
         white-space: nowrap;
+        text-transform: uppercase;
         cursor: pointer;
       }
     }
     .form-social {
       .social-content {
         .social-title {
-          color: $blue;
+          color: $yellow;
           font-size: 1rem;
           font-weight: 500;
           padding-bottom: 1rem;

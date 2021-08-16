@@ -10,7 +10,7 @@ import Projects from "../components/templates/Projects"
 import Process from "../components/templates/Process"
 import Connect from "../components/templates/Connect"
 
-const IndexPage = () => (
+const Landing = () => (
   <Layout>
     <Seo title="Portfolio" />
     <Hero />
@@ -22,4 +22,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default Landing

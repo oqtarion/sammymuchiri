@@ -19,6 +19,8 @@
 .services-left {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   width: 25%;
   padding: 1rem;
 
@@ -29,22 +31,26 @@
 }
 
 .services-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-title {
   margin: 0.5rem 0;
   line-height: 50px;
-  color: $blue;
+  color: $violet;
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: -2px;
-  white-space: nowrap;
+  line-height: 120px;
 }
 
 .services-text {
-  text-align: center;
+  text-align: left;
   color: $coral;
   font-size: 1.1rem;
   font-weight: 300;
   letter-spacing: 0.6px;
-  line-height: 20px;
 
   @media screen and (max-width: 760px) {
     width: 100%;
@@ -72,7 +78,7 @@
 
 .services-right::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: $blue;
+  background: $yellow;
   box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.25),
     inset -2px -2px -2px rgba(0, 0, 0, 0.25);
 }
@@ -92,13 +98,13 @@
   width: 400px;
   min-width: 250px;
   padding: 1.5rem;
-  background-color: $dark-two;
+  background-color: $dark-one;
   box-shadow: -1rem 0 3rem $black;
   transition: 0.2s;
   cursor: pointer;
 
   &:hover {
-    background: $dark-one;
+    background: $dark-two;
     transition: 0.2s;
   }
 }
@@ -116,7 +122,7 @@
 }
 
 .card-title {
-  color: $blue;
+  color: $yellow;
   font-size: 1.333rem;
   font-weight: 600;
   padding-bottom: 1rem;
@@ -143,7 +149,7 @@
   padding-right: 0.8rem;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
-  color: $purple;
+  color: $coral;
   margin: 0.2rem;
-  background: $black;
+  background: $dark-one;
 }

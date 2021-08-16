@@ -23,11 +23,14 @@ const Layout = ({ children }) => {
     }
   `)
 
+  // className ="one"
+
   return (
-    <>
+    <div className="landing">
+      <div className="bg"></div>
       <Header siteTitle={data.site.siteMetadata?.logo || `Title`} />
-      <main className="landing">{children}</main>
-    </>
+      <main className="main">{children}</main>
+    </div>
   )
 }
 

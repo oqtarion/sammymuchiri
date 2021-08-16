@@ -1,4 +1,32 @@
 .landing {
   width: 100%;
-  background: $black;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+.bg {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+
+  @media (max-width: $layout-breakpoint-small) {
+  }
+}
+
+.one {
+  top: 35rem;
+  right: 20rem;
+  position: relative;
+}
+
+.two {
+  top: 10rem;
+  right: 2rem;
+  height: 200rem;
+  position: relative;
 }

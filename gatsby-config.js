@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    logo: `sm`,
+    logo: `sm.`,
     title: `Sammy Muchiri`,
     description: `Digital Designer & Developer`,
     author: `@sammymuchiry`,

@@ -14,13 +14,22 @@
   text-align: center;
 }
 
+.project-header {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-title {
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: -2px;
   line-height: 50px;
   padding-bottom: 1rem;
-  color: $blue;
+  color: $violet;
+
+  @media (max-width: $layout-breakpoint-small) {
+    line-height: 80px;
+  }
 }
 
 .project-text {
@@ -52,7 +61,7 @@
   font-size: 2rem;
   font-weight: 600;
   padding-bottom: 1rem;
-  color: $blue;
+  color: $yellow;
   letter-spacing: -1px;
   white-space: nowrap;
   line-height: 120px;
