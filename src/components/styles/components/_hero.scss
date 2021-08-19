@@ -33,19 +33,26 @@
   }
 
   .hero-inner {
-    padding: 3rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     position: absolute;
+    background-color: $black;
+    // box-shadow: 2px 2px 13px 4px rgba(0, 0, 34, 0.34);
 
     @media (max-width: $layout-breakpoint-small) {
+      margin: 1rem;
       padding: 1rem;
     }
 
     .hero-message {
-      color: $coral;
+      color: $oxford;
       font-size: 2.4rem;
       font-weight: 300;
       letter-spacing: 0.2px;
@@ -77,19 +84,19 @@
           font-size: 5rem;
         }
         .hero-title-one {
-          color: $violet;
+          color: $green;
           @media (max-width: $layout-breakpoint-small) {
           }
         }
         .hero-title-span {
-          color: $yellow;
+          color: $red;
           margin-right: 2rem;
           @media (max-width: $layout-breakpoint-small) {
             margin-right: 1rem;
           }
         }
         .hero-title-two {
-          color: $violet;
+          color: $yellow;
           @media (max-width: $layout-breakpoint-small) {
           }
         }
@@ -97,23 +104,23 @@
     }
 
     .hero-cta {
-      margin: 3rem 1rem;
+      margin: 2rem 1rem;
       cursor: pointer;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       .cta-text {
-        color: $yellow;
+        color: $turquoise;
         font-size: 1rem;
-        font-weight: 500;
+        font-weight: 400;
         text-decoration: none;
         letter-spacing: 2px;
         white-space: nowrap;
         text-transform: uppercase;
 
         &:hover {
-          color: $coral;
+          color: $celeste;
           transition: 0.2s;
         }
       }

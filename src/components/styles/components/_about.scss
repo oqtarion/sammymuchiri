@@ -50,7 +50,7 @@
       .about-title {
         margin: 0.5rem 0;
         line-height: 120px;
-        color: $violet;
+        color: $turquoise;
         font-size: 4rem;
         font-weight: 600;
         letter-spacing: -2px;
@@ -62,7 +62,7 @@
       }
       .about-message {
         text-align: left;
-        color: $coral;
+        color: $azure;
         font-size: 1.1rem;
         font-weight: 300;
         letter-spacing: 0.6px;
@@ -81,7 +81,7 @@
       align-items: center;
       justify-content: center;
       .cta-text {
-        color: $yellow;
+        color: $turquoise;
         font-size: 1rem;
         font-weight: 500;
         text-decoration: none;
@@ -90,7 +90,7 @@
         text-transform: uppercase;
 
         &:hover {
-          color: $coral;
+          color: $celeste;
           transition: 0.2s;
         }
       }

@@ -1,32 +1,24 @@
 .landing {
   width: 100%;
   position: relative;
-}
 
-.main {
-  width: 100%;
-  position: absolute;
-  z-index: 2;
-}
-
-.bg {
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-
-  @media (max-width: $layout-breakpoint-small) {
+  .main {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
   }
-}
 
-.one {
-  top: 35rem;
-  right: 20rem;
-  position: relative;
-}
+  .bg-one {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 100vh;
+  }
 
-.two {
-  top: 10rem;
-  right: 2rem;
-  height: 200rem;
-  position: relative;
+  .bg-two {
+    position: absolute;
+    top: 50rem;
+    z-index: 1;
+  }
 }

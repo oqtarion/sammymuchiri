@@ -2,7 +2,7 @@
   height: 5rem;
   width: 100%;
   position: fixed;
-  background-color: transparent;
+  background-color: $black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,14 +27,14 @@
         font-size: 1.2rem;
       }
       .link {
-        color: $violet;
+        color: $turquoise;
         letter-spacing: 2px;
         white-space: nowrap;
         text-decoration: none;
         cursor: pointer;
 
         &:hover {
-          color: $yellow;
+          color: $oxford;
           transition: 0.2s;
         }
       }
@@ -46,12 +46,12 @@
       .tabs {
         margin: 0 2rem;
         .link {
-          color: $violet;
+          color: $turquoise;
           padding-bottom: 8px;
           padding-top: 8px;
           padding-right: 11px;
           padding-left: 11px;
-          font-weight: 600;
+          font-weight: 400;
           font-size: 1rem;
           text-decoration: none;
           letter-spacing: 2px;
@@ -66,12 +66,12 @@
           }
 
           &:hover {
-            color: $yellow;
+            color: $oxford;
             transition: 0.2s;
-            border-bottom: 3px solid $violet;
+            border-bottom: 3px solid $oxford;
 
             @media (max-width: $layout-breakpoint-small) {
-              border-bottom: 2px solid $violet;
+              border-bottom: 2px solid $oxford;
             }
           }
         }
@@ -79,7 +79,7 @@
     }
     .contact {
       .link {
-        color: $violet;
+        color: $black;
         font-size: 1rem;
         font-weight: 600;
         text-decoration: none;
@@ -90,7 +90,7 @@
         letter-spacing: 1px;
         white-space: nowrap;
         text-transform: uppercase;
-        background-color: none;
+        background-color: $turquoise;
         cursor: pointer;
 
         @media (max-width: $layout-breakpoint-small) {
@@ -98,7 +98,7 @@
         }
 
         &:hover {
-          color: $yellow;
+          background-color: $oxford;
           transition: 0.2s;
         }
       }

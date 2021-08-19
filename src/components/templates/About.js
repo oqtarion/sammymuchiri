@@ -59,11 +59,11 @@ export default function About() {
           viewBox="0 0 1009.25 637.456"
         >
           <g
-            id="Group_1"
-            data-name="Group 1"
-            transform="translate(-361.485 -220.72)"
+            id="Group_3"
+            data-name="Group 3"
+            transform="translate(-792.875 -221.272)"
           >
-            <g id="whiteboard" transform="translate(167.205 220.72)">
+            <g id="whiteboard" transform="translate(598.595 221.272)">
               <rect
                 id="shape"
                 width="763.33"
@@ -123,7 +123,7 @@ export default function About() {
                 <path
                   id="arrow"
                   d="M1129.94,272.77a3.05,3.05,0,0,0-2.44-.7l-28,4.47a3,3,0,0,0,1,5.92l18.27-2.91L1064.1,343l-22.34-21.45a3.044,3.044,0,0,0-4.35.17l-73.17,85L943,390.83a3,3,0,0,0-3.88.24l-65.73,63a3,3,0,0,0,4.15,4.33l63.9-61.26,21.45,16.07a3,3,0,0,0,4.07-.44l72.93-84.74,22.34,21.45a3.044,3.044,0,0,0,4.35-.17l58.29-67.72-.38,23.7a3,3,0,0,0,3,3.05h0a3,3,0,0,0,3-2.95l.48-30.29a3,3,0,0,0-1.03-2.33Z"
-                  fill="#ff0054"
+                  fill="#23ce6b"
                 />
               </g>
               <g id="layout_II" data-name="layout II">
@@ -208,19 +208,19 @@ export default function About() {
                     id="Path_110"
                     data-name="Path 110"
                     d="M510.26,388.1v47.15l24.81-23.82Z"
-                    fill="#ffbd00"
+                    fill="#ff312e"
                   />
                   <path
                     id="Path_111"
                     data-name="Path 111"
                     d="M539.44,415.55l-24.85,23.86h50.23Z"
-                    fill="#ffbd00"
+                    fill="#ff312e"
                   />
                   <path
                     id="Path_112"
                     data-name="Path 112"
                     d="M563.65,383.98H514.64l24.76,23.29Z"
-                    fill="#ffbd00"
+                    fill="#ff312e"
                   />
                   <path
                     id="Path_113"
@@ -232,7 +232,7 @@ export default function About() {
                     id="Path_114"
                     data-name="Path 114"
                     d="M543.78,411.38l21.2,19.95V391.02Z"
-                    fill="#ffbd00"
+                    fill="#ff312e"
                   />
                   <path
                     id="Path_115"
@@ -250,13 +250,13 @@ export default function About() {
                     id="Path_117"
                     data-name="Path 117"
                     d="M738.13,383.98H686.41v55.43h51.72Z"
-                    fill="#ffbd00"
+                    fill="#23ce6b"
                   />
                   <path
                     id="Path_118"
                     data-name="Path 118"
                     d="M798.85,383.98H744.13v55.43h54.72Z"
-                    fill="#ffbd00"
+                    fill="#f5bb00"
                   />
                   <path
                     id="Path_119"
@@ -354,7 +354,7 @@ export default function About() {
                   id="Path_120"
                   data-name="Path 120"
                   d="M709.16,210l113-57.33A126.62,126.62,0,0,1,835.84,210c0,69.49-57.18,126.68-126.68,126.68a126.75,126.75,0,0,1-99.11-47.79Z"
-                  fill="#ff0054"
+                  fill="#f5bb00"
                 />
                 <line
                   id="Line_40"
@@ -438,7 +438,7 @@ export default function About() {
                   data-name="Path 121"
                   d="M590,291.23l95.48-75.73L563.6,216.86A121.24,121.24,0,0,0,590,291.23Z"
                   fill="none"
-                  stroke="#ffbd00"
+                  stroke="#23ce6b"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="6"
@@ -448,7 +448,7 @@ export default function About() {
                   data-name="Path 122"
                   d="M577,160.62a121.309,121.309,0,0,0-8.24,44.09c0,.54,0,1.08,0,1.63l121.78-1.63Z"
                   fill="none"
-                  stroke="#ffbd00"
+                  stroke="#23ce6b"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="6"
@@ -458,7 +458,7 @@ export default function About() {
                   data-name="Path 123"
                   d="M773.87,87.42,713.8,193.11l109-54.14a122.339,122.339,0,0,0-48.93-51.55Z"
                   fill="none"
-                  stroke="#ffbd00"
+                  stroke="#23ce6b"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="6"
@@ -467,7 +467,7 @@ export default function About() {
                   id="Path_124"
                   data-name="Path 124"
                   d="M759.79,90.28A121.17,121.17,0,0,0,700,74.22h-2a121.86,121.86,0,0,0-112.21,77.33L699.27,196Z"
-                  fill="#390099"
+                  fill="#ff312e"
                 />
                 <line
                   id="Line_47"
@@ -493,7 +493,7 @@ export default function About() {
                 />
               </g>
             </g>
-            <g id="man" transform="translate(361.485 333.733)">
+            <g id="man" transform="translate(792.875 334.285)">
               <g
                 id="hand_II"
                 data-name="hand II"
@@ -575,6 +575,8 @@ export default function About() {
                   ry="3.53"
                   transform="translate(180.193 102.722) rotate(-113.22)"
                   fill="#390099"
+                  stroke="#7d53de"
+                  stroke-width="1"
                 />
                 <ellipse
                   id="eye"
@@ -584,6 +586,8 @@ export default function About() {
                   ry="3.53"
                   transform="translate(148.211 116.336) rotate(-102.45)"
                   fill="#390099"
+                  stroke="#7d53de"
+                  stroke-width="1"
                 />
                 <path
                   id="brow_II"
@@ -610,7 +614,7 @@ export default function About() {
                   id="cap"
                   d="M1263.432,225.53l33.86-17.18c-4.25-25.24-1.64-64.25,45.7-86.24,74-34.37,101,39.72,101,39.72l-169.5,85.53a12.24,12.24,0,1,1-11.06-21.83Z"
                   transform="translate(-1256.44 -113.013)"
-                  fill="#ff0054"
+                  fill="#f5bb00"
                 />
                 <path
                   id="mouth"
@@ -666,7 +670,7 @@ export default function About() {
               id="download"
               d="M9.125,47.737h43.75A2.91,2.91,0,0,1,56,50.368,2.91,2.91,0,0,1,52.875,53H9.125A2.91,2.91,0,0,1,6,50.368,2.91,2.91,0,0,1,9.125,47.737Zm25-15.33,10.133-8.532L48.677,27.6,31,42.484,13.321,27.6l4.419-3.721,10.135,8.533V3h6.25V32.409Z"
               transform="translate(-6 -3)"
-              fill="#ff0054"
+              fill="#00a1e4"
               fill-rule="evenodd"
             />
           </svg>

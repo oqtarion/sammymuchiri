@@ -1,52 +1,35 @@
 .connect {
   width: 100%;
   height: 100vh;
-  display: flex;
-  flex-direction: row;
-  background: transparent;
-  padding: 4rem 2rem;
-  margin-top: 5rem;
+  background: $black;
+  position: relative;
+  margin-top: 3rem;
 
-  @media (max-width: $layout-breakpoint-small) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 2rem;
-  }
   .connect-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    margin: 5rem 2rem;
-
-    @media (max-width: $layout-breakpoint-small) {
-      width: 100%;
-    }
+    height: 100vh;
+    position: absolute;
   }
 
   .connect-form {
-    background: $dark-one;
-    width: 50%;
+    background: $black;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
     @media (max-width: $layout-breakpoint-small) {
-      width: 100%;
-      margin: 0;
-      padding: 1rem;
+      left: 1rem;
+      width: 80%;
     }
+
     .form-content {
       padding-bottom: 1rem;
-      padding-top: 1rem;
+      padding-top: 2rem;
       .form-title {
-        color: $violet;
+        color: $turquoise;
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 0.5px;
@@ -55,7 +38,7 @@
       }
       .form-text {
         text-align: center;
-        color: $coral;
+        color: $oxford;
         font-size: 1.1rem;
         font-weight: 300;
         letter-spacing: 0.6px;
@@ -70,19 +53,19 @@
       width: 100%;
 
       ::-webkit-input-placeholder {
-        color: $coral;
+        color: $malibu;
       }
 
       :-moz-placeholder {
-        color: $coral;
+        color: $malibu;
       }
 
       ::-moz-placeholder {
-        color: $coral;
+        color: $malibu;
       }
 
       :-ms-input-placeholder {
-        color: $coral;
+        color: $malibu;
       }
 
       input:focus,
@@ -98,45 +81,45 @@
       .form-control-name {
         font-size: 1rem;
         font-weight: 300;
-        color: $coral;
+        color: $malibu;
         letter-spacing: 0.6px;
         width: 90%;
         padding: 0.5rem;
         margin-top: 6px;
         margin-bottom: 16px;
         border: none;
-        background: $dark-two;
+        background: $dark-one;
         font-family: "Poppins";
         text-transform: lowercase;
       }
       .form-control-email {
         font-size: 1rem;
         font-weight: 300;
-        color: $coral;
+        color: $malibu;
         letter-spacing: 0.6px;
         width: 90%;
         padding: 0.5rem;
         margin-top: 6px;
         margin-bottom: 16px;
         border: none;
-        background: $dark-two;
+        background: $dark-one;
         font-family: "Poppins";
         text-transform: lowercase;
       }
       .form-control-message {
         font-size: 1rem;
         font-weight: 300;
-        color: $coral;
+        color: $malibu;
         letter-spacing: 0.6px;
         width: 90%;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         padding-top: 0.5rem;
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
         margin-top: 6px;
-        margin-bottom: 16px;
+        margin-bottom: 11px;
         border: none;
-        background: $dark-two;
+        background: $dark-one;
         font-family: "Poppins";
         -moz-background-clip: padding;
         -webkit-background-clip: padding-box;
@@ -148,7 +131,7 @@
         padding: 12px;
         margin-top: 6px;
         margin-bottom: 16px;
-        background: $violet;
+        background: $turquoise;
         border: none;
         border-radius: 0;
         color: $black;
@@ -164,9 +147,9 @@
     .form-social {
       .social-content {
         .social-title {
-          color: $yellow;
+          color: $oxford;
           font-size: 1rem;
-          font-weight: 500;
+          font-weight: 300;
           padding-bottom: 1rem;
           letter-spacing: 1px;
         }
@@ -177,7 +160,7 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        padding-bottom: 1rem;
+        padding-bottom: 3rem;
         .icon {
           height: 20px;
         }

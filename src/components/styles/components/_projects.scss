@@ -25,7 +25,7 @@
   letter-spacing: -2px;
   line-height: 50px;
   padding-bottom: 1rem;
-  color: $violet;
+  color: $turquoise;
 
   @media (max-width: $layout-breakpoint-small) {
     line-height: 80px;
@@ -36,7 +36,7 @@
   font-size: 1.1rem;
   font-weight: 300;
   letter-spacing: 0.6px;
-  color: $coral;
+  color: $oxford;
 }
 
 .project-carousel {
@@ -55,13 +55,14 @@
   position: absolute;
   background-size: 1000px;
   z-index: 5;
+  opacity: 0.5;
 }
 
 .carousel-item-title {
   font-size: 2rem;
   font-weight: 600;
   padding-bottom: 1rem;
-  color: $yellow;
+  color: $turquoise;
   letter-spacing: -1px;
   white-space: nowrap;
   line-height: 120px;
