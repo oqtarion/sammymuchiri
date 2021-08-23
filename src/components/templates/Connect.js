@@ -1,9 +1,6 @@
 import React, { useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import facebook from "../../images/social/facebook.svg"
-import twitter from "../../images/social/twitter.svg"
-import instagram from "../../images/social/instagram.svg"
 
 // Lets work together
 
@@ -5473,22 +5470,12 @@ export default function Connect() {
             id="subject"
             name="subject"
             className="form-control-message"
-            placeholder="Write something.."
+            placeholder="how may I help.."
           />
           <button className="form-control-button" type="submit" value="Submit">
             Send message
           </button>
         </form>
-        <div className="form-social">
-          <div className="social-content">
-            <h4 className="social-title">Or find me on social media</h4>
-          </div>
-          <div className="social-icons">
-            <img className="icon" src={facebook} alt="facebook" />
-            <img className="icon" src={twitter} alt="twitter" />
-            <img className="icon" src={instagram} alt="instagram" />
-          </div>
-        </div>
       </motion.div>
     </div>
   )

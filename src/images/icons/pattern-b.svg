@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="878.819" height="220.921" viewBox="0 0 878.819 220.921">
+  <g id="Group_3" data-name="Group 3" transform="translate(-903.603 -538.584)">
+    <path id="bannerAS" d="M795.011,974.37l-26.677,26.678h-9.378l36.055-36.055Z" transform="translate(822.255 -242.256)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAT" d="M723.3,979.458l50.122-50.122h4.762V934.1L728.062,984.22H723.3Z" transform="translate(839.083 -225.429)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAU" d="M749.977,929.335h9.378L723.3,965.39v-9.378Z" transform="translate(839.083 -225.429)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAV" d="M619.366,1454.838h0a54.885,54.885,0,0,0,0-109.769Z" transform="translate(888.454 -696.03)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAW" d="M570.317,1345.069H515.432v54.885a54.891,54.891,0,0,1,54.885-54.885" transform="translate(937.693 -695.839)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAX" d="M515.515,1449v54.885H570.4A54.884,54.884,0,0,1,515.515,1449" transform="translate(937.653 -745.095)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAY" d="M674.25,1399.954v-54.885H619.366a54.891,54.891,0,0,1,54.884,54.885" transform="translate(888.454 -695.839)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAZ" d="M2127.652,1210.538a54.884,54.884,0,0,0-54.885-54.885,54.884,54.884,0,0,0,54.885,54.885" transform="translate(-455.695 -561.128)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBA" d="M2072.767,1106.6a54.891,54.891,0,0,0,54.885-54.885h-.011a54.872,54.872,0,0,0-54.874,54.874Z" transform="translate(-510.39 -457.195)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBB" d="M0,54.885A54.884,54.884,0,0,0,54.885,109.77V82.327a27.442,27.442,0,1,1,0-54.885V0A54.877,54.877,0,0,0,0,54.885" transform="translate(1562.251 594.67) rotate(-90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBC" d="M0,54.885,54.885,0V54.885Z" transform="translate(1781.215 594.526) rotate(90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBD" d="M54.885,0,0,54.885V0Z" transform="translate(1781.215 594.526) rotate(90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBE" d="M54.885,0,0,54.885V0Z" transform="translate(1781.215 539.785) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBF" d="M674.25,929.335a54.884,54.884,0,0,1-54.884,54.885,54.884,54.884,0,0,1,54.884-54.885" transform="translate(1687.428 1633.603) rotate(180)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBG" d="M570.317,984.22a54.891,54.891,0,0,0-54.885-54.885,54.884,54.884,0,0,0,54.885,54.885" transform="translate(1638.379 1633.603) rotate(180)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBH" d="M515.432,1088.153a54.891,54.891,0,0,0,54.885-54.884,54.883,54.883,0,0,0-54.885,54.884" transform="translate(1638.379 1682.795) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBI" d="M0,54.885V0H54.885A54.876,54.876,0,0,0,0,54.885" transform="translate(1781.215 704.114) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBJ" d="M54.885,0V54.885H0A54.883,54.883,0,0,0,54.885,0" transform="translate(1781.215 704.114) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBK" d="M54.885,54.885H0V0A54.876,54.876,0,0,0,54.885,54.885" transform="translate(1726.33 704.114) rotate(180)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBL" d="M0,0H54.885V54.885A54.883,54.883,0,0,0,0,0" transform="translate(1726.33 704.114) rotate(180)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBM" d="M1968.834,690.872V635.987h54.885a54.876,54.876,0,0,0-54.885,54.885" transform="translate(-297.388 67.92)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBN" d="M2023.719,635.987v54.885h-54.885a54.883,54.883,0,0,0,54.885-54.885" transform="translate(-297.388 67.92)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBO" d="M2127.652,690.872h-54.885V635.987a54.876,54.876,0,0,0,54.885,54.885" transform="translate(-346.437 67.92)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBP" d="M2072.767,635.987h54.885v54.885a54.883,54.883,0,0,0-54.885-54.885" transform="translate(-346.437 67.92)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBQ" d="M833.068,1137.2H723.3a54.884,54.884,0,0,1,54.885,54.885,54.891,54.891,0,0,1,54.884-54.885" transform="translate(620.572 -597.416)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBR" d="M723.3,1296.02H833.068a54.89,54.89,0,0,1-54.884-54.884A54.884,54.884,0,0,1,723.3,1296.02" transform="translate(620.572 -646.609)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBS" d="M899.726,1244.876v-70.362a35.181,35.181,0,0,0,0,70.362" transform="translate(553.669 -615.101)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBT" d="M723.3,1174.514v70.362a35.181,35.181,0,1,0,0-70.362" transform="translate(620.572 -615.101)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBU" d="M2023.719,947.766h-54.885v54.885Z" transform="translate(-515.707 -353.245)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBV" d="M2072.767,843.854v54.885h54.885Z" transform="translate(-564.946 -304.062)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBW" d="M2072.767,843.854l54.885,54.885V843.854Z" transform="translate(-564.946 -304.062)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBX" d="M2072.767,1002.672l54.885-54.885h-54.885Z" transform="translate(-564.946 -353.255)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBY" d="M2127.652,947.787l-54.885,54.885h54.885Z" transform="translate(-564.946 -353.255)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerBZ" d="M1968.834,843.854v54.885h54.885Z" transform="translate(-515.707 -304.062)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCD" d="M2280.634,1087.775l36.055-36.055h-9.378l-26.677,26.677Z" transform="translate(3403.574 1810.714) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCE" d="M2352.346,1096.755v-9.378l-36.055,36.055h9.378Z" transform="translate(3420.401 1827.589) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCF" d="M2285.4,1106.6l50.122-50.122v-4.762h-4.762l-50.122,50.122v4.762Z" transform="translate(3403.574 1810.723) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCG" d="M2307.311,1227.365h9.378l-36.055-36.055v9.378Z" transform="translate(3348.691 1931.522) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCH" d="M2352.346,1182.331l-26.678-26.677h-9.378l36.055,36.055Z" transform="translate(3365.761 1914.646) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCI" d="M2280.634,1160.416l50.122,50.122h4.762v-4.762l-50.122-50.122h-4.762Z" transform="translate(3348.691 1914.656) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCQ" d="M0,27.443V0H27.443Z" transform="translate(1398.752 649.31) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCR" d="M27.443,27.443H0V0Z" transform="translate(1426.195 649.31) rotate(90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCS" d="M0,0H54.885V54.885Z" transform="translate(1453.637 649.258) rotate(90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCT" d="M54.885,0V54.884H0Z" transform="translate(1398.752 649.258) rotate(90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCU" d="M0,0V27.64H27.629A61.6,61.6,0,0,1,0,0Z" transform="translate(931.751 594.654) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCV" d="M8.781,0H0A52.6,52.6,0,0,0,52.547,52.547V43.765A43.814,43.814,0,0,1,8.781,0Z" transform="translate(958.996 596.992) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCW" d="M35.039,35.038V26.257A26.286,26.286,0,0,1,8.782,0H0A35.079,35.079,0,0,0,35.039,35.038Z" transform="translate(958.996 614.5) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCX" d="M8.781,0H0A17.54,17.54,0,0,0,17.52,17.519V8.738A8.747,8.747,0,0,1,8.781,0Z" transform="translate(958.996 632.019) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCY" d="M27.64,0H0V27.629A61.6,61.6,0,0,1,27.64,0Z" transform="translate(1013.691 594.654) rotate(90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerCZ" d="M52.547,8.781V0A52.609,52.609,0,0,0,0,52.557H8.781A43.816,43.816,0,0,1,52.547,8.781Z" transform="translate(1011.364 596.992) rotate(90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDA" d="M35.039,8.781V0A35.082,35.082,0,0,0,0,35.049H8.782A26.3,26.3,0,0,1,35.039,8.781Z" transform="translate(993.856 614.5) rotate(90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDB" d="M17.52,8.781V0A17.542,17.542,0,0,0,0,17.53H8.781A8.749,8.749,0,0,1,17.52,8.781Z" transform="translate(976.337 632.019) rotate(90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDK" d="M0,54.885,54.885,0V54.885Z" transform="translate(1617.267 704.137) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDL" d="M54.885,0,0,54.885V0Z" transform="translate(1617.267 704.137) rotate(180)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDM" d="M54.885,0,0,54.885V0Z" transform="translate(1671.962 704.137) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDO" d="M2307.311,1227.365h9.378l-36.055-36.055v9.378Z" transform="translate(-609.284 -632.714)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDP" d="M2352.346,1182.331l-26.678-26.677h-9.378l36.055,36.055Z" transform="translate(-626.356 -615.839)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDQ" d="M2280.634,1160.416l50.122,50.122h4.762v-4.762l-50.122-50.122h-4.762Z" transform="translate(-609.529 -615.866)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDR" d="M2221.735,1227.365l26.677-26.678v-9.378l-36.055,36.055Z" transform="translate(-522.423 -577.972)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDS" d="M2226.823,1155.653l-50.122,50.122v4.762h4.762l50.123-50.122v-4.762Z" transform="translate(-505.596 -561.128)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDT" d="M2176.7,1182.331v9.378l36.055-36.055h-9.378Z" transform="translate(-505.351 -561.097)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDU" d="M26.677,36.055h9.378L0,0V9.378Z" transform="translate(994.894 539.944) rotate(90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDV" d="M36.055,26.677,9.378,0H0L36.055,36.055Z" transform="translate(1013.662 558.726) rotate(90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDW" d="M0,4.762,50.122,54.885h4.763V50.122L4.762,0H0Z" transform="translate(1013.68 539.919) rotate(90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDX" d="M9.378,36.055,36.055,9.378V0L0,36.055Z" transform="translate(940.194 558.726) rotate(90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDY" d="M50.122,0,0,50.122v4.762H4.762L54.885,4.762V0Z" transform="translate(958.988 539.919) rotate(90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerDZ" d="M0,26.677v9.378L36.055,0H26.677Z" transform="translate(958.962 539.944) rotate(90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerEG" d="M27.64,0H0V27.629A61.6,61.6,0,0,1,27.64,0Z" transform="translate(1453.637 703.912) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerEH" d="M52.547,8.781V0A52.609,52.609,0,0,0,0,52.557H8.781A43.816,43.816,0,0,1,52.547,8.781Z" transform="translate(1451.31 706.25) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerEI" d="M35.039,8.781V0A35.082,35.082,0,0,0,0,35.049H8.782A26.3,26.3,0,0,1,35.039,8.781Z" transform="translate(1433.801 723.758) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerEJ" d="M17.52,8.781V0A17.542,17.542,0,0,0,0,17.53H8.781A8.749,8.749,0,0,1,17.52,8.781Z" transform="translate(1416.282 741.277) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerEL" d="M2543.386,898.739,2488.5,843.854h54.885Z" transform="translate(3556.563 1438.65) rotate(180)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerEM" d="M2488.5,843.854l54.885,54.885H2488.5Z" transform="translate(3556.563 1438.65) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerEN" d="M2384.567,843.854l54.885,54.885h-54.885Z" transform="translate(3507.514 1438.65) rotate(180)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFM" d="M307.565,1241.136v54.65h54.651a54.657,54.657,0,0,1-54.651-54.65" transform="translate(1539.813 2000.059) rotate(180)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFN" d="M411.5,1295.786h54.65v-54.65a54.649,54.649,0,0,1-54.65,54.65" transform="translate(1589.096 2000.059) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFQ" d="M362.216,1295.786v-54.65H307.565a54.649,54.649,0,0,1,54.651,54.65" transform="translate(1539.813 2000.059) rotate(180)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFR" d="M466.149,1241.136H411.5v54.65a54.656,54.656,0,0,1,54.65-54.65" transform="translate(1589.096 2000.059) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFT" d="M619.366,1137.2H674.02v54.655Z" transform="translate(-14.263 1268.984) rotate(-90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFU" d="M674.02,1241.136v54.654H619.366Z" transform="translate(-63.542 1268.984) rotate(-90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFV" d="M515.432,1268.463v-27.327h27.327Z" transform="translate(-63.542 1219.704) rotate(-90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFW" d="M542.759,1216.5H515.432v-27.327Z" transform="translate(-38.902 1219.704) rotate(-90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFX" d="M619.366,1268.463v-27.327h27.327Z" transform="translate(-63.542 1268.984) rotate(-90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFY" d="M646.693,1216.5H619.366v-27.327Z" transform="translate(-38.902 1268.984) rotate(-90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerFZ" d="M515.432,1137.2h54.655v54.655Z" transform="translate(-14.263 1219.704) rotate(-90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGA" d="M570.087,1241.136v54.654H515.432Z" transform="translate(-63.542 1219.704) rotate(-90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGB" d="M2023.387,635.987V690.54h-54.553a54.552,54.552,0,0,0,54.553-54.553" transform="translate(3201.229 1230.629) rotate(180)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGC" d="M2127.321,690.54h-54.554V635.987a54.545,54.545,0,0,0,54.554,54.553" transform="translate(3250.608 1230.629) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGD" d="M2072.767,635.987h54.554V690.54a54.552,54.552,0,0,0-54.554-54.553" transform="translate(3250.608 1230.629) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGE" d="M0,81.94H0l26.974,27.313h0V0L0,27.313Z" transform="translate(1343.871 622.064) rotate(90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGF" d="M26.974,81.94V27.313L0,0V109.253Z" transform="translate(1343.871 539.785) rotate(90)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGG" d="M55.3,0H0L27.652,27.313Z" transform="translate(1316.557 566.76) rotate(90)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGH" d="M55.3,0H0L27.652,27.313Z" transform="translate(1343.871 566.76) rotate(90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGI" d="M27.652,0,0,27.313H55.3Z" transform="translate(1289.244 566.76) rotate(90)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGJ" d="M27.652,0,0,27.313H55.3Z" transform="translate(1261.931 566.76) rotate(90)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGK" d="M1486.653,1369.546h54.452V1424a54.455,54.455,0,0,0-54.452-54.453" transform="translate(-197.583 -720.506)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGL" d="M1541.105,1515.694h0v-54.453h-54.452A54.453,54.453,0,0,0,1541.105,1515.694Z" transform="translate(-197.583 -757.748)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGM" d="M1449.411,1461.241h-54.453v54.453h0A54.453,54.453,0,0,0,1449.411,1461.241Z" transform="translate(-160.34 -757.748)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerGN" d="M1449.411,1369.546h0V1424h-54.453A54.453,54.453,0,0,1,1449.411,1369.546Z" transform="translate(-160.34 -720.506)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerHD" d="M2021.459,1104.346a52.631,52.631,0,0,0-52.625-52.626,52.624,52.624,0,0,0,52.625,52.626" transform="translate(3036.96 1698.496) rotate(180)" fill="#f5bb00"/>
+    <path id="bannerAB" d="M785.554,1423.608l-9.111,9.111,9.111,9.111-9.111,9.111-18.222-18.222,18.222-18.222Z" transform="translate(1753.498 2136.924) rotate(180)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAC" d="M801.838,1466.256l9.111,9.111,9.111-9.111,9.111,9.111-18.222,18.222-18.222-18.222Z" transform="translate(1769.852 2161.413) rotate(180)" fill="#f5bb00" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAD" d="M820.06,1407.345l-9.111-9.111-9.111,9.1-9.111-9.111,18.222-18.211,18.222,18.211Z" transform="translate(1769.852 2120.598) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAE" d="M844.486,1441.83l9.111-9.111-9.111-9.111,9.111-9.111,18.222,18.222L853.6,1450.94Z" transform="translate(1794.355 2136.924) rotate(180)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAF" d="M827.233,1345.069h54.884v54.885Z" transform="translate(1786.222 2104.075) rotate(180)" fill="#23ce6b" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAG" d="M723.3,1399.954v-54.885h54.885Z" transform="translate(1736.983 2104.075) rotate(180)" fill="#1f01b9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="bannerAH" d="M778.184,1503.887H723.3V1449Z" transform="translate(1736.983 2153.267) rotate(180)" fill="#ff312e" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+  </g>
+</svg>

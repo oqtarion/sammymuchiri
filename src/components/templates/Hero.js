@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import right from "../../images/icons/arrow right.svg"
 // Get in touch
 // Hire me
 
@@ -176,14 +177,7 @@ export default function Hero() {
           <a href="/#connect" className="cta-text">
             Get in touch
           </a>
-          <svg className="cta-icon" viewBox="0 0 50 50" width="50" height="50">
-            <path
-              id="arrow-forward"
-              d="M25.073,1.969,50,26.969l-24.927,25-4.4-4.387L38.121,30.038H0V23.9H38.123L20.675,6.354Z"
-              transform="translate(0 -1.969)"
-              fill="#00a1e4"
-            />
-          </svg>
+          <img src={right} alt="download" className="cta-icon" />
         </motion.div>
       </motion.div>
     </div>

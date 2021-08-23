@@ -2,6 +2,8 @@ import React, { useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import cv from "../files/CV-2021.pdf"
+
+import download from "../../images/icons/download.svg"
 //Who i am
 
 // Profile
@@ -665,15 +667,7 @@ export default function About() {
           <a href={cv} target="_blank" rel="noreferrer" className="cta-text">
             Download CV
           </a>
-          <svg className="cta-icon" width="50" height="50" viewBox="0 0 50 50">
-            <path
-              id="download"
-              d="M9.125,47.737h43.75A2.91,2.91,0,0,1,56,50.368,2.91,2.91,0,0,1,52.875,53H9.125A2.91,2.91,0,0,1,6,50.368,2.91,2.91,0,0,1,9.125,47.737Zm25-15.33,10.133-8.532L48.677,27.6,31,42.484,13.321,27.6l4.419-3.721,10.135,8.533V3h6.25V32.409Z"
-              transform="translate(-6 -3)"
-              fill="#00a1e4"
-              fill-rule="evenodd"
-            />
-          </svg>
+          <img src={download} alt="download" className="cta-icon" />
         </motion.div>
       </motion.div>
     </div>
